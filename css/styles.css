@@ -1,0 +1,196 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+/* Title section */
+
+.big-heading {
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+#title {
+    text-align: left;
+}
+
+#iphone-mockup {
+    width: 60%;
+    transform: rotate(30deg);
+    margin-left: 50px;
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width: 1000px) {
+    #iphone-mockup {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Features section */
+
+#features {
+    padding: 10%;
+    position: relative;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#features p {
+    font-weight: 100;
+}
+
+
+.icons {
+    color: #ef8172;
+    padding: 5%;
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+.intro {
+    padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-header {
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card-title {
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+/* CTA */
+
+#cta h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 5% 15%;
+}
+
+.cta-button {
+    margin: 0 1% 8%
+}
+
+/* Footer */
+
+#footer {
+    padding: 7%;
+}
+
+.footer-icons {
+    padding: 3% 1%;
+}
+
+#footer p {
+    font-weight: 400;
+}
